@@ -1,5 +1,7 @@
 body {
 font-family: 'Times New Roman', Arial, sans-serif;
+display: flex;
+flex-direction: column;
 }
 
 * {
@@ -49,6 +51,12 @@ ul li {
     margin-bottom: 52px;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .text-header {
     font-size: 48px;
     font-weight: 900;
@@ -70,6 +78,7 @@ ul li {
     border-radius: 5px;
     border: none;
     width: 100px;
+    font-size: 14px;
 }
 
 .hero img {
@@ -144,4 +153,52 @@ ul li {
     align-self: flex-end;
     font-weight: bold;
     font-size: 26px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.subscription {
+    color: #d9dad8;
+    font-size: 18px;
+}
+
+.subscription h3 {
+    font-size: 22px;
+    color: #F9FAF8;
+}
+
+.call-to-action .sign-up {
+    border: 2px solid#E5E7EB;
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: #F9FAF8;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-top: 42px;
+    padding-bottom: 52px;
 }
