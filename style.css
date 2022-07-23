@@ -13,6 +13,7 @@ font-family: 'Times New Roman', Arial, sans-serif;
     flex-direction: column;
     align-items: center;
     gap:32px;
+    padding-bottom: 52px;
    
 }
 
@@ -72,8 +73,8 @@ ul li {
 }
 
 .hero img {
-    max-width: 300px;
-    height: auto;
+    width: 550px;
+    height: 180px;
     border: 5px solid #1F2937;
 }
 
@@ -115,4 +116,32 @@ ul li {
     max-width: 200px;
     height: 150px;
     margin-bottom: 8px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 72px;
+    font-style: italic;
+}
+
+.testimonial p {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.customer {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 26px;
 }
